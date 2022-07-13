@@ -1,0 +1,38 @@
+.calculator {
+    width: 30rem;
+    font-size: 3rem;
+}
+
+.display {
+    background: black;
+    font-size: 4rem;
+    height: 5rem;
+    text-align: end;
+    padding-right: 5px;
+    padding-top: 1rem;
+    color: white;
+
+}
+
+button {
+    width: 7.5rem;
+    height: 4rem;
+    font-size: 2rem;
+    
+}
+.all-keys {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first {
+    width: 15rem;
+    color: rgb(111, 236, 111);
+    background: purple;
+}
+
+.other {
+    width: 15rem;
+    color: rgb(111, 236, 111);
+    background: purple;
+}
