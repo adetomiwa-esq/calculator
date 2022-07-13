@@ -34,9 +34,15 @@ keys.addEventListener("click", e => {
         }
 
         if(actionKey === "clearOne"){
-            let newArr = displayedNum.split("")
-            let removed = newArr.slice(0, -1)
-            display.textContent = removed.join("")
+            if(display.textContent != "0"){
+                let newArr = displayedNum.split("")
+                let removed = newArr.slice(0, -1)
+                display.textContent = removed.join("")
+                if(newArr.length === 1){
+                    display.textContent = "0"
+                }
+            }
+            
         }
 
         if(actionKey === "add" ||
